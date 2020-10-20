@@ -114,7 +114,6 @@ function redBalloon() {
   red.lifetime = 150;
   red.scale = 0.1;
 redB.add(red);
-  red.debug=true;
   red.setCollider("circle",0,0,250)
 }
 
@@ -127,7 +126,6 @@ function blueBalloon() {
   blue.lifetime = 150;
   blue.scale = 0.1;
  blueB.add(blue);
-  blue.debug=true;
   blue.setCollider("circle",0,0,250)
 }
 
@@ -138,9 +136,8 @@ function greenBalloon() {
   green.lifetime = 150;
   green.scale = 0.1;
   greenB.add(green);  
-  green.debug=true;
   green.setCollider("circle",0,0,250)
-}
+  }
 
 function pinkBalloon() {
   var pink = createSprite(0,Math.round(random(20, 370)), 10, 10);
@@ -149,7 +146,7 @@ function pinkBalloon() {
   pink.lifetime = 150;
   pink.scale = 1
   pinkB.add(pink);
-  pink.debug=true;
+  
 }
 
 
@@ -164,6 +161,6 @@ function pinkBalloon() {
   arrow.scale = 0.3;
     arrowGroup.add(arrow);
   arrow.setCollider("rectangle",0,0,300,100)
-  arrow.debug=true;
+  
    
 }
